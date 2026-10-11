@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    min-height: 100%;
+    background: #f1f5f9;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background:
+            radial-gradient(circle at top left, rgb(219 234 254 / 70%), transparent 35%),
+            #f1f5f9;
+    color: #172033;
+    font-family:
+            Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.5;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+#app {
+    min-height: 100vh;
+}
